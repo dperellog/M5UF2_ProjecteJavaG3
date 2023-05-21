@@ -33,4 +33,9 @@ class Pila {
     public int mida() {
         return pila.size();
     }
+
+    public String AsString() {
+        String listAsString = pila.toString();
+        return listAsString;
+    }
 }
